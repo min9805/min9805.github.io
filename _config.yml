@@ -259,7 +259,6 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
@@ -267,6 +266,23 @@ compress_html:
   ignore:
     envs: development
 
+# Sidebar
+docs:
+  - title: Database
+    children:
+      - title: "DB"
+        url: db/
+        category: "DB"
+  - title: Blog
+    children:
+      - title: "Blog"
+        url: blog/
+        category: "Blog"
+  - title: Etc
+    children:
+      - title: "Jekyll"
+        url: jekyll/
+        category: "jekyll"
 
 # Defaults
 defaults:
