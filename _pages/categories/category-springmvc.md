@@ -1,5 +1,5 @@
 ---
-title: "Spring MVC"
+title: "springmvc"
 layout: archive
 permalink: categories/springmvc
 author_profile: true

@@ -1,15 +1,15 @@
 ---
-title:  "[Jekyll] First Posting"
+title: "[Jekyll] First Posting"
 excerpt: "GitHub를 통한 md 파일 블로그 포스팅"
 
 categories:
-  - Blog
+  - blog
 tags:
   - [Blog, jekyll, Github, Git]
 
 toc: true
 toc_sticky: true
- 
+
 date: 2022-12-23
 last_modified_at: 2022-12-23
 ---
