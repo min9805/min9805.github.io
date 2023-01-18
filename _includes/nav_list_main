@@ -8,7 +8,7 @@
     <li>
       <span class="nav__sub-title">JAVA</span>
       <ul>
-        {% for category in site.categories %} {% if category[0] == "JAVA" %}
+        {% for category in site.categories %} {% if category[0] == "Java" %}
         <li>
           <a href="/categories/java" class="">JAVA ({{ category[1].size }})</a>
         </li>
@@ -26,7 +26,7 @@
         {% endif %} {% endfor %}
       </ul>
       <ul>
-        {% for category in site.categories %} {% if category[0] == "BOJ" %}
+        {% for category in site.categories %} {% if category[0] == "Boj" %}
         <li>
           <a href="/categories/boj" class=""
             >백준 문제풀이({{ category[1].size }})</a
