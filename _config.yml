@@ -20,7 +20,7 @@ title: " Happy Coding "
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Min Gyu"
-description: "공부 블로그"
+description: "공부하는 블로그입니당"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "min9805/min9805.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,7 +94,7 @@ analytics:
 author:
   name: "Min Gyu"
   avatar: # ""
-  bio: ":)"
+  bio: "개인 공부하는 블로그입니당"
   location: "Seoul, South Korea"
   links:
     - label: "Email"
@@ -256,24 +256,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-# Sidebar
-docs:
-  - title: Database
-    children:
-      - title: "DB"
-        url: db/
-        category: "DB"
-  - title: Blog
-    children:
-      - title: "Blog"
-        url: blog/
-        category: "Blog"
-  - title: Etc
-    children:
-      - title: "Jekyll"
-        url: jekyll/
-        category: "jekyll"
 
 # Defaults
 defaults:
