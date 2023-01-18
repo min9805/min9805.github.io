@@ -31,7 +31,7 @@
         %}
         <li>
           <a href="/categories/algorithm" class=""
-            >알고리즘 이론 (with C++) ({{ category[1].size }})</a
+            >알고리즘 이론 ({{ category[1].size }})</a
           >
         </li>
         {% endif %} {% endfor %}
