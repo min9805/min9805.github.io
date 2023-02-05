@@ -40,7 +40,7 @@
         {% for category in site.categories %} {% if category[0] == "boj" %}
         <li>
           <a href="/categories/boj" class=""
-            >백준 문제풀이({{ category[1].size }})</a
+            >문제풀이({{ category[1].size }})</a
           >
         </li>
         {% endif %} {% endfor %}
