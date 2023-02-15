@@ -16,11 +16,11 @@ minimal_mistakes_skin: "default" # "default"  "air", "aqua", "contrast", , "dirt
 
 # Site Settings
 locale: "ko-KR"
-title: " Happy Coding "
+title: " 행복한띠용이의 코딩 블로그"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Min Gyu"
-description: "공부하는 블로그입니당"
+description: "공부하는 블로그입니다"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "min9805/min9805.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,7 +94,7 @@ analytics:
 author:
   name: "Min Gyu"
   avatar: # ""
-  bio: "개인 공부하는 블로그입니당"
+  bio: "1일 1커밋 !"
   location: "Seoul, South Korea"
   links:
     - label: "Email"
