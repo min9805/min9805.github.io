@@ -39,7 +39,8 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 스프링 공식 문서에 나와있듯이 
 
 > spring.jpa.hibernate.ddl-auto=update 
-    spring.jpa.hibernate.hbm2ddl.auto=update
+
+> spring.jpa.hibernate.hbm2ddl.auto=update
 
 둘 다 동일한 설정을 하는 코드이다. ddl-auto 는 spring.jpa.hibernate.hbm2ddl.auto 설정을 위한 shortcut 이라고 설명이 나와있다. 하지만 어떤 이유에선지 ddl-auto 는 에러가 발생한다. 
 
