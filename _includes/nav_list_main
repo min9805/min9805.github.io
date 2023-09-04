@@ -8,10 +8,20 @@
     <li>
       <span class="nav__sub-title">Spring</span>
       <ul>
-        {% for category in site.categories %} {% if category[0] == "springmvc"
+        {% for category in site.categories %} {% if category[0] == "spring"
         %}
         <li>
-          <a href="/categories/springmvc" class=""
+          <a href="/categories/spring" class=""
+            >Spring ({{ category[1].size }})</a
+          >
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+      <ul>
+        {% for category in site.categories %} {% if category[0] == "java"
+        %}
+        <li>
+          <a href="/categories/java" class=""
             >Spring MVC ({{ category[1].size }})</a
           >
         </li>
@@ -66,13 +76,6 @@
         {% for category in site.categories %} {% if category[0] == "cloud" %}
         <li>
           <a href="/categories/cloud" class="">Cloud ({{ category[1].size }})</a>
-        </li>
-        {% endif %} {% endfor %}
-      </ul>
-      <ul>
-        {% for category in site.categories %} {% if category[0] == "java" %}
-        <li>
-          <a href="/categories/java" class="">JAVA ({{ category[1].size }})</a>
         </li>
         {% endif %} {% endfor %}
       </ul>
