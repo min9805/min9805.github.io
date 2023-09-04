@@ -22,7 +22,7 @@
         %}
         <li>
           <a href="/categories/java" class=""
-            >Spring MVC ({{ category[1].size }})</a
+            >Java ({{ category[1].size }})</a
           >
         </li>
         {% endif %} {% endfor %}
