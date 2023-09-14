@@ -19,14 +19,13 @@ RestTemplate 을 사용해서 요청을 할 때 계속해서 Error 500 Internal 
 # RestTemplate
 
 ```
+UriComponents uriComponents = UriComponentsBuilder.fromUriString(baseUrl)
+  .queryParam("IF", input.getIF())
+  .queryParam("id", input.getId())
+  .encode()
+  .build();
 
-		UriComponents uriComponents = UriComponentsBuilder.fromUriString(baseUrl)
-				.queryParam("IF", input.getIF())
-				.queryParam("id", input.getId())
-        .encode()
-        .build();
-
-		ResponseEntity<ExampleDto> response = restTemplate.exchange(uriComponents.toUriString(), HttpMethod.GET, httpHeaders, ExampleDto.class);
+ResponseEntity<ExampleDto> response = restTemplate.exchange(uriComponents.toUriString(), HttpMethod.GET, httpHeaders, ExampleDto.class);
 
 
 ```
