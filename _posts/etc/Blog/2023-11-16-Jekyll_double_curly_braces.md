@@ -1,0 +1,54 @@
+---
+title: "[Jekyll] Liquid Exception: Liquid syntax error Variable '{{2, 1}' was not properly terminated with regexp: /\}\} 해결"
+excerpt: "Jekyll Double Curly Braces Error"
+
+categories:
+  - blog
+tags:
+  - [Blog, jekyll]
+
+toc: true
+toc_sticky: true
+
+date: 2023-11-16
+last_modified_at: 2023-11-16
+---
+{% raw %}
+
+# ❌ Error
+
+Jekyll 기반으로 블로그를 운영 중인데, Java 에서 이중배열을 선언해줄 때 중괄호 "{
+" 가 연속으로 2개 들어가 에러가 발생했다. 
+
+
+# ⚠️Error Message
+
+  Liquid Exception: Liquid syntax error (line 45): Variable '{{2, 1}' was not properly terminated with regexp: /\}\}/ in /...
+
+# ❔ 원인 분석
+
+Jekyll 는 Liquid 라는 언어를 사용한다. 이때 해당 언어는 중괄호를 통해 변수나 statement 를 표현한다. 
+ 
+```
+# 변수 
+{{ variable }} 
+
+# statement
+{% if statement %}.
+```
+
+때문에 이중배열을 선언하기 위해 코드블럭 안에서 중괄호 두 개를 사용하면 변수로 인식하지만 마땅한 변수가 나오지 않기에 에러가 발생하는 것이다. 
+
+# 📝 해결
+
+```
+{% raw %}
+Hello, my name is {{name}}.
+{% endraw %}
+```
+
+흔히 "{" 앞뒤로 \ 나 % 같은 기호를 통해 코드가 아닌 Char 이라 표현하지만 Jekyll 에서는 {% raw %} 테그를 사용한다.
+
+해당 테그 안에 있는 내용들은 말 그대로 raw 하게 그대로 보여주는 것이다. 해당 블로그에서도 중괄호가 두개인 텍스트 자체가 존재하는 것이 글 전체를 raw, endraw 가 감싸기 때문이다.
+
+{% endraw %}
