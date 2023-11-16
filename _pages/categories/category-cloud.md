@@ -1,5 +1,5 @@
 ---
-title: "Web"
+title: "Cloud"
 layout: archive
 permalink: categories/cloud
 author_profile: true

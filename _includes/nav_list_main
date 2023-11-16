@@ -80,16 +80,16 @@
         {% endif %} {% endfor %}
       </ul>
       <ul>
-        {% for category in site.categories %} {% if category[0] == "web" %}
+        {% for category in site.categories %} {% if category[0] == "blog" %}
         <li>
-          <a href="/categories/web" class="">Web ({{ category[1].size }})</a>
+          <a href="/categories/blog" class="">Blog ({{ category[1].size }})</a>
         </li>
         {% endif %} {% endfor %}
       </ul>
       <ul>
-        {% for category in site.categories %} {% if category[0] == "blog" %}
+        {% for category in site.categories %} {% if category[0] == "web" %}
         <li>
-          <a href="/categories/blog" class="">Blog ({{ category[1].size }})</a>
+          <a href="/categories/web" class="">Web ({{ category[1].size }})</a>
         </li>
         {% endif %} {% endfor %}
       </ul>
