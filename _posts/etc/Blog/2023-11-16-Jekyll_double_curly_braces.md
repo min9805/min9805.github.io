@@ -5,7 +5,7 @@ excerpt: "Jekyll Double Curly Braces Error"
 categories:
   - blog
 tags:
-  - [Blog, jekyll]
+  - [blog, jekyll]
 
 toc: true
 toc_sticky: true
