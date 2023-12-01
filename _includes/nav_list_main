@@ -8,8 +8,7 @@
     <li>
       <span class="nav__sub-title">Spring</span>
       <ul>
-        {% for category in site.categories %} {% if category[0] == "spring"
-        %}
+        {% for category in site.categories %} {% if category[0] == "spring" %}
         <li>
           <a href="/categories/spring" class=""
             >Spring ({{ category[1].size }})</a
@@ -18,12 +17,9 @@
         {% endif %} {% endfor %}
       </ul>
       <ul>
-        {% for category in site.categories %} {% if category[0] == "java"
-        %}
+        {% for category in site.categories %} {% if category[0] == "java" %}
         <li>
-          <a href="/categories/java" class=""
-            >Java ({{ category[1].size }})</a
-          >
+          <a href="/categories/java" class="">Java ({{ category[1].size }})</a>
         </li>
         {% endif %} {% endfor %}
       </ul>
@@ -39,11 +35,9 @@
         {% endif %} {% endfor %}
       </ul>
       <ul>
-        {% for category in site.categories %} {% if category[0] == "boj" %}
+        {% for category in site.categories %} {% if category[0] == "ps" %}
         <li>
-          <a href="/categories/boj" class=""
-            >문제풀이({{ category[1].size }})</a
-          >
+          <a href="/categories/ps" class="">문제풀이({{ category[1].size }})</a>
         </li>
         {% endif %} {% endfor %}
       </ul>
@@ -75,7 +69,9 @@
       <ul>
         {% for category in site.categories %} {% if category[0] == "cloud" %}
         <li>
-          <a href="/categories/cloud" class="">Cloud ({{ category[1].size }})</a>
+          <a href="/categories/cloud" class=""
+            >Cloud ({{ category[1].size }})</a
+          >
         </li>
         {% endif %} {% endfor %}
       </ul>

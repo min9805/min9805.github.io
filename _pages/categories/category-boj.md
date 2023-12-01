@@ -1,7 +1,7 @@
 ---
-title: "BOJ"
+title: "PS"
 layout: archive
-permalink: categories/boj
+permalink: categories/ps
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ---
 
-{% assign posts = site.categories.boj %}
+{% assign posts = site.categories.ps %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
