@@ -1,6 +1,6 @@
 ---
-title: "[프로그래머스][Python] 2022 KAKAO TECH INTERNSHIP : 성격 유형 검사하기"
-excerpt: "[프로그래머스][Python] 2022 KAKAO TECH INTERNSHIP : 성격 유형 검사하기"
+title: "[프로그래머스][Python] 2022 KAKAO TECH INTERNSHIP : 두 큐 합 같게 만들기"
+excerpt: "[프로그래머스][Python] 2022 KAKAO TECH INTERNSHIP : 두 큐 합 같게 만들기"
 
 categories:
   - ps
@@ -24,7 +24,6 @@ last_modified_at: 2023-12-05
 
 - MBTI 처럼 각 유형에 대한 질문이 정해져있고 질문에 대한 답으로 유형에 대해서 +- 계산해 판단할 수 있다.
 - 예를 들어 AN 에서 1을 골랐다면 N 형에 3점을 주고 NA 에서 1번을 골랐다면 A 형에 2점을 주는 것을 (+3) + (-2) 로 AN 의 유형이 양수이므로 N 형으로 판단하는 것이다.
-
 
 # 💡 포인트
 
