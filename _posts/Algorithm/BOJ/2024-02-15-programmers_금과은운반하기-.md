@@ -10,11 +10,11 @@ tags:
 toc: true
 toc_sticky: true
 
-date: 2024-02-08
-last_modified_at: 2024-02-08
+date: 2024-02-15
+last_modified_at: 2024-02-17
 ---
 
-> 1일 1PS 46일차!
+> 1일 1PS 53일차!
 
 # 📚 문제
 

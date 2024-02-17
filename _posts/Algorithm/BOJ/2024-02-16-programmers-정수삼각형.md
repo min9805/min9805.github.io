@@ -5,16 +5,16 @@ excerpt: "[Programmers][Python] 프로그래머스: 정수 삼각형"
 categories:
   - ps
 tags:
-  - [백준, BOJ]
+  - [프로그래머스, programmers]
 
 toc: true
 toc_sticky: true
 
-date: 2024-02-08
-last_modified_at: 2024-02-08
+date: 2024-02-16
+last_modified_at: 2024-02-17
 ---
 
-> 1일 1PS 46일차!
+> 1일 1PS 54일차!
 
 # 📚 문제
 
