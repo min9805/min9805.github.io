@@ -5,7 +5,7 @@ excerpt: "[Programmers][Python] 프로그래머스: 금과 은 운반하기"
 categories:
   - ps
 tags:
-  - [백준, BOJ]
+  - [프로그래머스, programmers]
 
 toc: true
 toc_sticky: true
@@ -23,7 +23,7 @@ last_modified_at: 2024-02-17
 > Level 3
 
 - 이분탐색
-- [https://min9805.github.io/ps/boj1561/] 해당 문제와 비슷하기에 이분 탐색임을 빠르게 알 수 있었다.
+- [https://min9805.github.io/ps/boj1561/](https://min9805.github.io/ps/boj1561/) 해당 문제와 비슷하기에 이분 탐색임을 빠르게 알 수 있었다.
 
 # 💡 풀이 과정
 
