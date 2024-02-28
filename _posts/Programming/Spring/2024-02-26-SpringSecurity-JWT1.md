@@ -5,7 +5,7 @@ excerpt: "미니프로젝트를 위한 SpringSecurity, JWT"
 categories:
   - spring
 tags:
-  - [spring, resttemplate]
+  - [spring, jwt]
 
 toc: true
 toc_sticky: true
