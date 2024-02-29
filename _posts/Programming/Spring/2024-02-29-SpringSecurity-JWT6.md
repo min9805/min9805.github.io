@@ -14,8 +14,8 @@ date: 2024-02-29
 last_modified_at: 2024-02-29
 ---
 
-<details markdown="1">
-  <summary>JWT Series</summary>
+<details markdown="1" style="border: 1px solid black; padding: 10px; background-color: #333333; border-radius: 10px;">
+  <summary style="font-size: 35px;">JWT Series</summary>
   <div>
     <li>
         <a href="https://min9805.github.io/spring/SpringSecurity-JWT1/">[SpringSecurity + JWT] 01. JWT?</a>
@@ -32,7 +32,6 @@ last_modified_at: 2024-02-29
         <li>
         <a href="https://min9805.github.io/spring/SpringSecurity-JWT5/">[SpringSecurity + JWT] 05. Kotlin Code</a>
     </li>
-        </li>
         <li>
         <a href="https://min9805.github.io/spring/SpringSecurity-JWT6/">[SpringSecurity + JWT] 06. BaseResponse, ExceptionHandler</a>
     </li>

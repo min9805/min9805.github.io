@@ -1,5 +1,5 @@
 ---
-title: "[SpringSecurity + JWT] 04. Kotlin Code"
+title: "[SpringSecurity + JWT] 05. Kotlin Code"
 excerpt: "미니프로젝트를 위한 SpringSecurity, JWT"
 
 categories:
@@ -13,6 +13,34 @@ toc_sticky: true
 date: 2024-02-28
 last_modified_at: 2024-02-28
 ---
+
+
+<details markdown="1" style="border: 1px solid black; padding: 10px; background-color: #333333; border-radius: 10px;">
+  <summary style="font-size: 35px;">JWT Series</summary>
+  <div>
+    <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT1/">[SpringSecurity + JWT] 01. JWT?</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT2/">[SpringSecurity + JWT] 02. CustomUserDetails</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT3/">[SpringSecurity + JWT] 03. JWTTokenProvider</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT4/">[SpringSecurity + JWT] 04. AuthenticationFilter</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT5/">[SpringSecurity + JWT] 05. Kotlin Code</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT6/">[SpringSecurity + JWT] 06. BaseResponse, ExceptionHandler</a>
+    </li>
+  </div>
+</details>
+
+
+----
 
  구조를 우선적으로 파악한 이후 Kotlin 으로 컴팩트하게 JWT Token 처리를 진행해보겠습니다. 
 

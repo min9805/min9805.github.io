@@ -14,6 +14,32 @@ date: 2024-02-27
 last_modified_at: 2024-02-27
 ---
 
+<details markdown="1" style="border: 1px solid black; padding: 10px; background-color: #333333; border-radius: 10px;">
+  <summary style="font-size: 35px;">JWT Series</summary>
+  <div>
+    <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT1/">[SpringSecurity + JWT] 01. JWT?</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT2/">[SpringSecurity + JWT] 02. CustomUserDetails</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT3/">[SpringSecurity + JWT] 03. JWTTokenProvider</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT4/">[SpringSecurity + JWT] 04. AuthenticationFilter</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT5/">[SpringSecurity + JWT] 05. Kotlin Code</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT6/">[SpringSecurity + JWT] 06. BaseResponse, ExceptionHandler</a>
+    </li>
+  </div>
+</details>
+
+
+----
  JWT 토큰을 생성하는데 필요한 UserDetails 가 준비되었기 때문에 이제 JWT 토큰을 실제 생성하는 JWTTokenProvider 를 생성합니다.
 
 Spring Security 의 인증 절차는 UsernamePasswordAuthenticationFilter 에서 이루어집니다. 

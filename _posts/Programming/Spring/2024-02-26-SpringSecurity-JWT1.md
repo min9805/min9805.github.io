@@ -14,6 +14,32 @@ date: 2024-02-26
 last_modified_at: 2024-02-26
 ---
 
+<details markdown="1" style="border: 1px solid black; padding: 10px; background-color: #333333; border-radius: 10px;">
+  <summary style="font-size: 35px;">JWT Series</summary>
+  <div>
+    <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT1/">[SpringSecurity + JWT] 01. JWT?</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT2/">[SpringSecurity + JWT] 02. CustomUserDetails</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT3/">[SpringSecurity + JWT] 03. JWTTokenProvider</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT4/">[SpringSecurity + JWT] 04. AuthenticationFilter</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT5/">[SpringSecurity + JWT] 05. Kotlin Code</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT6/">[SpringSecurity + JWT] 06. BaseResponse, ExceptionHandler</a>
+    </li>
+  </div>
+</details>
+
+
+----
 JWT (Json Web Token) 은 현재 대부분의 인증 허가 관련해서 사용되는 기술입니다. 필요한 모든 정보를 한 객체에 담아서 전달하기에 JWT 하나로 많은 인증이 가능합니다. 또한 웹 표준을 따르기에 대부분의 언어가 이를 지원합니다. 
 
 # JWT 구조

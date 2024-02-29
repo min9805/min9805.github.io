@@ -14,6 +14,32 @@ date: 2024-02-27
 last_modified_at: 2024-02-27
 ---
 
+<details markdown="1" style="border: 1px solid black; padding: 10px; background-color: #333333; border-radius: 10px;">
+  <summary style="font-size: 35px;">JWT Series</summary>
+  <div>
+    <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT1/">[SpringSecurity + JWT] 01. JWT?</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT2/">[SpringSecurity + JWT] 02. CustomUserDetails</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT3/">[SpringSecurity + JWT] 03. JWTTokenProvider</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT4/">[SpringSecurity + JWT] 04. AuthenticationFilter</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT5/">[SpringSecurity + JWT] 05. Kotlin Code</a>
+    </li>
+        <li>
+        <a href="https://min9805.github.io/spring/SpringSecurity-JWT6/">[SpringSecurity + JWT] 06. BaseResponse, ExceptionHandler</a>
+    </li>
+  </div>
+</details>
+
+
+----
  그럼 본격적으로 SpringSecurity 를 사용한 JWT 를 구현해보겠습니다. 해당 게시글에서는 구조 파악에 우선순위를 두어 예제를 실행했습니다.
 
 로그인 등의 인증을 위해 DB 에서 직접 ID, Password 를 가져와 처리할 수 있지만, 여러 정보들 중 제한적 내용만 이용한다는 단점이 있습니다. 
