@@ -18,7 +18,17 @@ last_modified_at: 2024-04-05
 
 ## 라이브러리 사용법
 
+### Stack
+
+```
+stack = []
+stack.append()
+stack[-1]
+stack.pop()
+```
+
 ### Queue
+
 ```
 from collections import deque
 
@@ -27,35 +37,72 @@ queue.append()
 queue.popleft()
 queue[0]
 ```
+
 ### Dictionary
+
 ```
 dict = {"example" : 0, "test" : 1}
+
+// 조회 시
 dict["example"]
+
+// 변경 시 
+dict["example"] = 4
 ```
+
 ### Sort
+
 ```
 answer.sort(key=lambda x: x[dict["example"]])
 ```
+
 # Java
 
 ## 라이브러리 사용법
 
+### Stack
+
+```
+import java.util.Stack;
+
+Stack<Integer> stack = new Stack<>();
+stack.add(1);
+stack.peek();
+stack.poll();
+```
 ### Queue
+
 ```
 import java.util.Queue;
 
 static Queue<int[]> queue = new LinkedList<>();
-queue.add()
-queue.poll()
-queue.peek()
+queue.add({1, 2});
+queue.poll();
+queue.peek();
 ```
+
 ### Dictionary
+
 ```
 import java.util.HashMap;
-HashMap<String, Integer> dict = new HashMap<>(){ put("example", 0); put("test", 1); };
-dict.get("example")
+
+HashMap<String, Integer> dict = new HashMap<>(){
+    {
+        put("example", 0);
+        put("test", 1);
+    }
+};
+
+//조회 시
+dict.get("example");
+
+//변경 시
+dict.put("example", 4);
+
 ```
+
 ### Sort
+
 ```
 answer.sort((a, b) -> Integer.compare(a[dict.get("example")], b[dict.get("example")]));
 ```
