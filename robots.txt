@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://min9805.github.io/sitemap.xml
+Sitemap: https://min9805.github.io/min_sitemap.xml
